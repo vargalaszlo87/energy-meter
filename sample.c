@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
 	}
 	fseek(f, 0L, SEEK_SET);
 	
-	// four vectors
+	// three vectors
 	double *t = (double*)malloc(lines * sizeof(double));
 	double *u = (double*)malloc(lines * sizeof(double));
 	double *i = (double*)malloc(lines * sizeof(double));
